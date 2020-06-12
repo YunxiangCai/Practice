@@ -31,6 +31,9 @@ public:
 		strcpy(class_no,cls);
 		cout<<"Student constructor:"<<"["<<stuNo<<"]"<<"["<<class_no<<"]"<<endl;
 	}
+	void showname(){
+		cout<<name<<endl;
+	}
 
 	~Student(){
 		delete class_no;
@@ -48,6 +51,7 @@ int main()
 	{People("Zhangsan",25);}
 	Student s1("Lisi",25,100000,"123");
 	Student s2("Wangwu",23,100001,"132");
+	s1.showname();
 }
 
 
