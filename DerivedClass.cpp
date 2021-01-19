@@ -1,3 +1,5 @@
+//commit 记录索引的状态
+
 //This is an example to show the constructor and destructor of a derived class
 //子类执行构造函数时，先执行父类的构造函数
 //子类执行析构函数时，先执行自己的析构，再执行父类的析构函数
