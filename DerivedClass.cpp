@@ -1,4 +1,4 @@
-//commit 记录索引的状态
+//pull 记录索引的状态
 
 //This is an example to show the constructor and destructor of a derived class
 //子类执行构造函数时，先执行父类的构造函数
